@@ -1377,3 +1377,11 @@ footer {
         background-color: #3498db;
     }
 }
+
+/* Fix pro zobrazení textů v mobilní navigaci */
+
+@media (max-width: 767px) {
+    .main-nav ul li a span {
+        display: inline !important;
+    }
+}
